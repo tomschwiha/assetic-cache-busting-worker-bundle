@@ -7,7 +7,7 @@ parameters:
   jvdh.assetic_cached_worker.class: jvdh\AsseticCachedWorker\Worker\CachedWorker
 
   jvdh.assetic_cache.class: Assetic\Cache\FilesystemCache
-  jvdh.assetic_filesystem_cache_dir: %kernel.cache_dir%/assetic-cache-busting
+  jvdh.assetic_filesystem_cache_dir: '%kernel.cache_dir%/assetic-cache-busting'
 
 services:
     jvdh.assetic_cache_busting:
